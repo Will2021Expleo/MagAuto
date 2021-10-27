@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MagAuto</title>
 
+    <!-- swiperjs cdn lin -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
     <!--fontawesome cdn link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
 
@@ -73,15 +76,15 @@
         <div class="icons">
             <i class="fas fa-home"></i>
             <div class="content">
-                <h3>150+</h3>
-                <p>branches</p>
+                <h3>+ de 150</h3>
+                <p>modèles</p>
             </div>
         </div>
 
         <div class="icons">
             <i class="fas fa-car"></i>
             <div class="content">
-                <h3>4770+</h3>
+                <h3>+ de 4770</h3>
                 <p>Offres spéciales</p>
             </div>
         </div>
@@ -89,7 +92,7 @@
         <div class="icons">
             <i class="fas fa-users"></i>
             <div class="content">
-                <h3>590+</h3>
+                <h3>+ de 590</h3>
                 <p>Avis clients</p>
             </div>
         </div>
@@ -97,7 +100,7 @@
         <div class="icons">
             <i class="fas fa-car"></i>
             <div class="content">
-                <h3>890+</h3>
+                <h3>+ de 890</h3>
                 <p>Nouveauté</p>
             </div>
         </div>
@@ -107,9 +110,9 @@
     <!-- vehicles section starts -->
     <section class="vehicles" id="vehicles">
         <h1 class="heading">vehicules <span>les plus populaires</span></h1>
-        <div class="vehicles-slider">
-            <div class="wrapper">
-                <div class="box">
+        <div class="swiper vehicles-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
                     <img src="image/vehicle-1.png" alt="">
                     <div class="content">
                         <h3>nouveau modèle</h3>
@@ -119,13 +122,13 @@
                             <span class="fas fa-circle"></span> 2021
                             <span class="fas fa-circle"></span> automatic
                             <span class="fas fa-circle"></span> diesel
-                            <span class="fas fa-circle"></span> 150km/h
+                            <span class="fas fa-circle"></span> 150ch
                         </p>
                         <a href="#" class="btn">consulter</a>
                     </div>
                 </div>
 
-                <div class="box">
+                <div class="swiper-slide box">
                     <img src="image/vehicle-2.png" alt="">
                     <div class="content">
                         <h3>nouveau modèle</h3>
@@ -135,13 +138,13 @@
                             <span class="fas fa-circle"></span> 2021
                             <span class="fas fa-circle"></span> automatic
                             <span class="fas fa-circle"></span> diesel
-                            <span class="fas fa-circle"></span> 150km/h
+                            <span class="fas fa-circle"></span> 150ch
                         </p>
                         <a href="#" class="btn">consulter</a>
                     </div>
                 </div>
 
-                <div class="box">
+                <div class="swiper-slide box">
                     <img src="image/vehicle-3.png" alt="">
                     <div class="content">
                         <h3>nouveau modèle</h3>
@@ -151,13 +154,13 @@
                             <span class="fas fa-circle"></span> 2021
                             <span class="fas fa-circle"></span> automatic
                             <span class="fas fa-circle"></span> diesel
-                            <span class="fas fa-circle"></span> 150km/h
+                            <span class="fas fa-circle"></span> 150ch
                         </p>
                         <a href="#" class="btn">consulter</a>
                     </div>
                 </div>
 
-                <div class="box">
+                <div class="swiper-slide box">
                     <img src="image/vehicle-4.png" alt="">
                     <div class="content">
                         <h3>nouveau modèle</h3>
@@ -167,13 +170,13 @@
                             <span class="fas fa-circle"></span> 2021
                             <span class="fas fa-circle"></span> automatic
                             <span class="fas fa-circle"></span> diesel
-                            <span class="fas fa-circle"></span> 150km/h
+                            <span class="fas fa-circle"></span> 150ch
                         </p>
                         <a href="#" class="btn">consulter</a>
                     </div>
                 </div>
 
-                <div class="box">
+                <div class="swiper-slide box">
                     <img src="image/vehicle-5.png" alt="">
                     <div class="content">
                         <h3>nouveau modèle</h3>
@@ -183,35 +186,391 @@
                             <span class="fas fa-circle"></span> 2021
                             <span class="fas fa-circle"></span> automatic
                             <span class="fas fa-circle"></span> diesel
-                            <span class="fas fa-circle"></span> 150km/h
+                            <span class="fas fa-circle"></span> 150ch
                         </p>
                         <a href="#" class="btn">consulter</a>
                     </div>
                 </div>
 
-                <div class="box">
+                <div class="swiper-slide box">
                     <img src="image/vehicle-6.png" alt="">
                     <div class="content">
                         <h3>nouveau modèle</h3>
-                        <div class="price"><span>price</span>15000€/-</div>
+                        <div class="price"><span>price</span>15 000€</div>
                         <p>
                             new
                             <span class="fas fa-circle"></span> 2021
                             <span class="fas fa-circle"></span> automatic
                             <span class="fas fa-circle"></span> diesel
-                            <span class="fas fa-circle"></span> 150km/h
+                            <span class="fas fa-circle"></span> 150ch
                         </p>
                         <a href="#" class="btn">consulter</a>
                     </div>
                 </div>
             </div>
+            <div class="swiper-pagination"></div>
         </div>
     </section>
-
-
     <!-- vehicles section ends -->
 
+    <!-- services section starts -->
+    <service class="services" id="services">
+        <h1 class="heading">nos <span>services</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-car"></i>
+                <h3>Vente de véhicules</h3>
+                <p>commentaires à mettre</p>
+                <a href="#" class="btn">en savoir plus</a>
+            </div>
 
+            <div class="box">
+                <i class="fas fa-tools"></i>
+                <h3>réparation</h3>
+                <p>commentaires à mettre</p>
+                <a href="#" class="btn">en savoir plus</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-car-crash"></i>
+                <h3>assurance auto</h3>
+                <p>commentaires à mettre</p>
+                <a href="#" class="btn">en savoir plus</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-car-battery"></i>
+                <h3>remplacement de batterie</h3>
+                <p>commentaires à mettre</p>
+                <a href="#" class="btn">en savoir plus</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-gas-pump"></i>
+                <h3>vidange</h3>
+                <p>commentaires à mettre</p>
+                <a href="#" class="btn">en savoir plus</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-headset"></i>
+                <h3>assistance 24h/7</h3>
+                <p>commentaires à mettre</p>
+                <a href="#" class="btn">en savoir plus</a>
+            </div>
+        </div>
+        </div>
+    </service>
+    <!--service section ends -->
+
+    <!-- featured section starts -->
+    <section class="featured" id="featured">
+        <h1 class="heading">nouveaux <span>véhicules</span></h1>
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/car-1.png" alt="">
+                    <h3>nouveau modèle</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">55 000€</div>
+                    <a href="#" class="btn">consulter</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/car-2.png" alt="">
+                    <h3>nouveau modèle</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">55 000€</div>
+                    <a href="#" class="btn">consulter</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/car-3.png" alt="">
+                    <h3>nouveau modèle</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">55 000€</div>
+                    <a href="#" class="btn">consulter</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/car-4.png" alt="">
+                    <h3>nouveau modèle</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">55 000€</div>
+                    <a href="#" class="btn">consulter</a>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/car-5.png" alt="">
+                    <h3>nouveau modèle</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">55 000€</div>
+                    <a href="#" class="btn">consulter</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/car-6.png" alt="">
+                    <h3>nouveau modèle</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">55 000€</div>
+                    <a href="#" class="btn">consulter</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/car-7.png" alt="">
+                    <h3>nouveau modèle</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">55 000€</div>
+                    <a href="#" class="btn">consulter</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/car-8.png" alt="">
+                    <h3>nouveau modèle</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">55 000€</div>
+                    <a href="#" class="btn">consulter</a>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+    <!-- featured section ends -->
+
+    <!-- newsletter section starts -->
+    <section class="newsletter">
+        <h3>S'inscrire pour recevoir les dernières nouveautés</h3>
+        <p>Commentaires</p>
+        <form action="">
+            <input type="email" name="" placeholder="Entrez votre email" id="">
+            <input type="submit" name="" class="subscribe" id="">
+        </form>
+    </section>
+    <!-- newsletter section ends -->
+
+    <!-- review section starts -->
+    <section class="reviews" id="reviews">
+        <h1 class="heading">avis<span>clients</span></h1>
+        <div class="swiper reviews-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/pic-1.png" alt="">
+                    <div class="content">
+                        <p>commentaires</p>
+                        <h3>John Doe</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-2.png" alt="">
+                    <div class="content">
+                        <p>commentaires</p>
+                        <h3>John Doe</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-3.png" alt="">
+                    <div class="content">
+                        <p>commentaires</p>
+                        <h3>John Doe</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-4.png" alt="">
+                    <div class="content">
+                        <p>commentaires</p>
+                        <h3>John Doe</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-5.png" alt="">
+                    <div class="content">
+                        <p>commentaires</p>
+                        <h3>John Doe</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-6.png" alt="">
+                    <div class="content">
+                        <p>commentaires</p>
+                        <h3>John Doe</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- review section ends -->
+
+    <!-- contacts section starts -->
+    <section class="contact" id="contact">
+        <h1 class="heading">nous <span>contacter</span></h1>
+        <div class="row">
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85460.5120390339!2d0.1256615503525568!3d47.9819981681168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e288d214f3aa31%3A0x69025d4c6a7de07f!2sLe%20Mans!5e0!3m2!1sfr!2sfr!4v1635359258227!5m2!1sfr!2sfr"
+                allowfullscreen="" loading="lazy"></iframe>
+            <form action="">
+                <h3>formulaire de contact</h3>
+                <input type="text" placeholder="nom" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="number" placeholder="Téléphone" class="box">
+                <textarea name="" id="" cols="30" rows="10" placeholder="message" class="box"></textarea>
+                <input type="submit" value="envoi message" class="btn">
+            </form>
+
+        </div>
+    </section>
+    <!-- contacts section ends -->
+
+    <!-- footer section starts -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>"Nos sites"</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> allemagne</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> espagne </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> italie </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> belgique </a>
+            </div>
+
+            <div class="box">
+                <h3>Lien rapide</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> accueil </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> vehicules</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> services </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> nouveautés</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> commentaires </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+            </div>
+
+            <div class="box">
+                <h3>Lien rapide</h3>
+                <a href="#"> <i class="fas fa-phone"></i> 00 00 00 00 </a>
+                <a href="#"> <i class="fas fa-phone"></i> 00 00 00 00 </a>
+                <a href="#"> <i class="fas fa-enveloppe"></i> willy.isaac@expleogroup.com</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> 72000, Le Mans - france</a>
+            </div>
+
+            <div class="box">
+                <h3>Lien rapide</h3>
+                <a href="#"> <i class="fas fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fas fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fas fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fas fa-linkedin"></i> linkedin</a>
+            </div>
+        </div>
+
+        <div class="credit">create by willy isaac | all rights reserved!</div>
+    </section>
+    <!-- footer section ends -->
+
+
+    <!-- swiper js link -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <!-- custom js link -->
     <script src="js/script.js"></script>
 
